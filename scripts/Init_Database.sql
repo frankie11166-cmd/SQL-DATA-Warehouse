@@ -9,7 +9,7 @@ Execute this script will drop the database, proceed with caution. Ensure data ha
 
 /*
 
-
+------------------------------------------------------------------------
 -- Drop and recreate the 'DataWarehouse' database
 
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = "DataWarehouse") I
@@ -27,6 +27,7 @@ GO
 Use DataWarehouse;
 GO
 
+------------------------------------------------------------------------
 -- Create Schema
 Create Schema Bronze;
 GO
