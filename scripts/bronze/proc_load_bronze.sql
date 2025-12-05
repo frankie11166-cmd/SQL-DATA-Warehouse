@@ -16,6 +16,7 @@ Parameters:
 Usage Example:
   EXEC bronze.load_bronze
 
+-----------------------------------------------------------------------------------
 
 CREATE or ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
